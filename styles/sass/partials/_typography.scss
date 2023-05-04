@@ -1,14 +1,14 @@
 @import "./variables";
 
 @font-face {
-    font-family: "Gotu";
-    src: url(../fonts/Gotu/Gotu-Regular.ttf);
+    font-family: "Gotu, sans-serif";
+    src: url(../assets/fonts/Gotu/Gotu-Regular.ttf);
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "Poppins";
-    src: url(../fonts/Poppins/Poppins-Black.ttf);
+    font-family: "Poppins, sans-serif";
+    src: url(../assets/fonts/Poppins/Poppins-Black.ttf);
     font-weight: normal;
 }
 
@@ -21,8 +21,13 @@ body {
     font-size: 1rem;
     line-height: 32px;
     letter-spacing: 0px;
+    color: $blue;
 }
 
 h1, h2, h3, h4 {
     font-family: $headingFont;
+}
+
+ul {
+    list-style: none;
 }

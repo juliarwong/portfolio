@@ -227,18 +227,14 @@ html {
   margin: 0 auto;
 }
 
-.button {
-  color: #CADD88;
-}
-
 @font-face {
-  font-family: "Gotu, sans-serif";
-  src: url(../assets/fonts/Gotu/Gotu-Regular.ttf);
+  font-family: "Gotu";
+  src: url(../../../assets/fonts/Gotu/Gotu-Regular.ttf);
   font-weight: normal;
 }
 @font-face {
-  font-family: "Poppins, sans-serif";
-  src: url(../assets/fonts/Poppins/Poppins-Black.ttf);
+  font-family: "Poppins";
+  src: url(../../../assets/fonts/Poppins/Poppins-Black.ttf);
   font-weight: normal;
 }
 html {
@@ -250,13 +246,8 @@ body {
   font-size: 1rem;
   line-height: 32px;
   letter-spacing: 0px;
-  color: #2181E8;
 }
 
 h1, h2, h3, h4 {
   font-family: "Gotu";
-}
-
-ul {
-  list-style: none;
 }/*# sourceMappingURL=styles.css.map */
