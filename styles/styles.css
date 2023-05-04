@@ -236,6 +236,10 @@ html {
   color: #CADD88;
 }
 
+a {
+  text-decoration: none;
+}
+
 @font-face {
   font-family: "Gotu";
   src: url(../assets/fonts/Gotu/Gotu-Regular.ttf);
@@ -243,7 +247,7 @@ html {
 }
 @font-face {
   font-family: "Poppins";
-  src: url(../assets/fonts/Poppins/Poppins-Black.ttf);
+  src: url(../assets/fonts/Poppins/Poppins-Medium.ttf);
   font-weight: normal;
 }
 html {
@@ -264,4 +268,18 @@ h1, h2, h3, h4 {
 
 ul {
   list-style: none;
+}
+
+.mainNav {
+  font-family: "Poppins";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.mainNav a {
+  color: #33342D;
+  font-style: italic;
 }

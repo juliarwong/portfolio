@@ -1,0 +1,10 @@
+.mainNav {
+    font-family: $bodyFont;
+    display: flex;
+    justify-content: space-evenly;
+    
+    a {
+        color: $grey;
+        font-style: italic;
+    }
+}
