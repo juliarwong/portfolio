@@ -228,12 +228,12 @@ html {
 
 @font-face {
   font-family: "Gotu";
-  src: url(../../../fonts/Gotu/Gotu-Regular.ttf);
+  src: url(../fonts/Gotu/Gotu-Regular.ttf);
   font-weight: normal;
 }
 @font-face {
   font-family: "Poppins";
-  src: url(../../../fonts/Poppins/Poppins-Black.ttf);
+  src: url(../fonts/Poppins/Poppins-Black.ttf);
   font-weight: normal;
 }
 html {
