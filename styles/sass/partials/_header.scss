@@ -1,0 +1,38 @@
+header {
+    img {
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .headerDiv {
+        width: 90%;
+        margin: 0 auto;
+
+        p {
+            font-size: 0.9rem;
+            width: 60%;
+            margin: 0 auto;
+            text-align: center;
+            color: $grey;
+            line-height: 25px;
+            margin-bottom: 20px;
+        }
+
+    }
+    
+    a.button {
+        text-align: center;
+        margin: 0 auto;
+        background-color: $green;
+        color: $grey;
+        padding: 16px 40px;
+        border-radius: 15px;
+        font-size: 0.9rem;
+    }
+
+    .headerButtonFlex {
+        display: flex;
+        justify-content: center;
+    }
+}

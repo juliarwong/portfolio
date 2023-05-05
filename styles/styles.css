@@ -266,6 +266,27 @@ h1, h2, h3, h4 {
   font-family: "Gotu";
 }
 
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.1rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+ul, li, a, input {
+  padding: 0;
+  margin: 0;
+}
+
 ul {
   list-style: none;
 }
@@ -278,8 +299,45 @@ ul {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin-top: 20px;
 }
 .mainNav a {
   color: #33342D;
   font-style: italic;
+}
+
+header img {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+header .headerDiv {
+  width: 90%;
+  margin: 0 auto;
+}
+header .headerDiv p {
+  font-size: 0.9rem;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  color: #33342D;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+header a.button {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #CADD88;
+  color: #33342D;
+  padding: 16px 40px;
+  border-radius: 15px;
+  font-size: 0.9rem;
+}
+header .headerButtonFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
