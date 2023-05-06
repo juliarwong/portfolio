@@ -1,0 +1,30 @@
+.projects {
+    h2 {
+        text-align: center;
+        margin-top: 140px;
+    }
+
+    img {
+        width: 70%;
+        border-radius: 15px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+    }
+
+    li {
+        a {
+        text-align: center;
+        background-color: $green;
+        color: $grey;
+        padding: 16px 40px;
+        border-radius: 15px;
+        font-size: 0.9rem;
+        }
+    }
+
+}

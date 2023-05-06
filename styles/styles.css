@@ -382,3 +382,42 @@ header .headerButtonFlex {
   border-radius: 15px;
   font-size: 0.9rem;
 }
+
+.skills {
+  background-color: #2181E8;
+  padding: 10px;
+}
+.skills h2 {
+  color: #CADD88;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.projects h2 {
+  text-align: center;
+  margin-top: 140px;
+}
+.projects img {
+  width: 70%;
+  border-radius: 15px;
+}
+.projects ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+.projects li a {
+  text-align: center;
+  background-color: #CADD88;
+  color: #33342D;
+  padding: 16px 40px;
+  border-radius: 15px;
+  font-size: 0.9rem;
+}
