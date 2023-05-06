@@ -341,3 +341,44 @@ header .headerButtonFlex {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  height: 90vh;
+  padding: 80px;
+  width: 60%;
+}
+.about img {
+  width: 40%;
+  border-radius: 15px;
+}
+.about h2 {
+  color: #CB4810;
+}
+.about p {
+  color: #33342D;
+}
+.about .socialIcons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-bottom: 40px;
+}
+.about a.button {
+  text-align: center;
+  background-color: #CADD88;
+  color: #33342D;
+  padding: 16px 40px;
+  border-radius: 15px;
+  font-size: 0.9rem;
+}

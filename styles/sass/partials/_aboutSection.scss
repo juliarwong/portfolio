@@ -1,0 +1,47 @@
+.about {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 90vh;
+    padding: 80px;
+    width: 60%;
+
+    img {
+        width: 40%;
+        border-radius: 15px;
+    }
+    
+
+    h2 {
+        color: $orange;
+    }
+
+    p {
+        color: $grey;
+    }
+
+    .socialIcons {
+        ul {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: baseline;
+            margin-bottom: 40px;
+
+            // li {
+            //     background-color: $grey;
+            //     color: white;
+            //     border-radius: 100px;
+            //     border: 10px solid $grey;
+            // }
+        }
+
+    }
+
+    a.button {
+        text-align: center;
+        background-color: $green;
+        color: $grey;
+        padding: 16px 40px;
+        border-radius: 15px;
+        font-size: 0.9rem;
+    }
+}
