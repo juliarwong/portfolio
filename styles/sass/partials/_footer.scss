@@ -1,0 +1,16 @@
+footer {
+    font-family: $bodyFont;
+    margin-top: 20px;
+    background-color: $blue;
+    
+    a {
+        color: white;
+        font-style: italic;
+    }
+}
+
+.footerNav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}

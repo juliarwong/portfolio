@@ -421,3 +421,23 @@ header .headerButtonFlex {
   border-radius: 15px;
   font-size: 0.9rem;
 }
+
+footer {
+  font-family: "Poppins";
+  margin-top: 20px;
+  background-color: #2181E8;
+}
+footer a {
+  color: white;
+  font-style: italic;
+}
+
+.footerNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 10px;
+}
