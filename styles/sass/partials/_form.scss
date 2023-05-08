@@ -1,0 +1,42 @@
+.form {
+    h3 {
+        color: $orange;
+        font-size: 2rem;
+    }
+
+    .contactForm {
+        display: flex;
+        flex-direction: column;
+        input {
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 5px;
+            background-color: $green;
+            opacity: 0.8;
+            border: 5px solid $green;
+            color: $grey;
+            font-family: $bodyFont;
+            font-style: italic;
+        }
+        textarea {
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 5px;
+            background-color: $green;
+            opacity: 0.8;
+            border: 5px solid $green;
+            color: $grey;
+            font-family: $bodyFont;
+            font-style: italic;
+        }
+        button {
+            border-radius: 10px;
+            padding: 10px;
+            background-color: $green;
+            border: 0px solid $green;
+            color: $grey;
+            font-family: $bodyFont;
+            font-style: italic;
+        }
+    }
+}

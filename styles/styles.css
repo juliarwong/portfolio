@@ -441,3 +441,48 @@ footer a {
           justify-content: space-evenly;
   padding: 10px;
 }
+
+.form h3 {
+  color: #CB4810;
+  font-size: 2rem;
+}
+.form .contactForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.form .contactForm input {
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #CADD88;
+  opacity: 0.8;
+  border: 5px solid #CADD88;
+  color: #33342D;
+  font-family: "Poppins";
+  font-style: italic;
+}
+.form .contactForm textarea {
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #CADD88;
+  opacity: 0.8;
+  border: 5px solid #CADD88;
+  color: #33342D;
+  font-family: "Poppins";
+  font-style: italic;
+}
+.form .contactForm button {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #CADD88;
+  border: 0px solid #CADD88;
+  color: #33342D;
+  font-family: "Poppins";
+  font-style: italic;
+}
