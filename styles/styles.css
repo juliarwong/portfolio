@@ -389,6 +389,12 @@ header a.button {
   margin-left: 100px;
   margin-top: 100px;
 }
+.skills li {
+  color: white;
+}
+.skills i {
+  font-size: 3rem;
+}
 
 .projects h2 {
   text-align: center;
