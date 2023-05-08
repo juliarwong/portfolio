@@ -240,6 +240,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  background-color: #F7F9F3;
+}
+
 @font-face {
   font-family: "Gotu";
   src: url(../assets/fonts/Gotu/Gotu-Regular.ttf);
@@ -306,16 +310,17 @@ ul {
   font-style: italic;
 }
 
+header {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
 header img {
   width: 100%;
   margin-top: 40px;
   margin-bottom: 30px;
 }
-header .headerDiv {
-  width: 90%;
-  margin: 0 auto;
-}
-header .headerDiv p {
+header p {
   font-size: 0.9rem;
   width: 60%;
   margin: 0 auto;
@@ -325,21 +330,13 @@ header .headerDiv p {
   margin-bottom: 20px;
 }
 header a.button {
+  display: inline-block;
   text-align: center;
-  margin: 0 auto;
   background-color: #CADD88;
   color: #33342D;
   padding: 16px 40px;
   border-radius: 15px;
   font-size: 0.9rem;
-}
-header .headerButtonFlex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .about {
