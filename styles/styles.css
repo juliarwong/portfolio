@@ -564,8 +564,58 @@ footer a {
           align-items: center;
   margin-top: 100px;
   width: 100%;
+  margin-bottom: 100px;
 }
 .contact img {
   border-radius: 30px;
   max-width: 25%;
+}
+.contact h4 {
+  color: #CB4810;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.contact .socialIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contact .socialIcons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.contact .socialIcons ul li {
+  margin-right: 10px;
+}
+.contact .socialIcons ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #33342D;
+}
+.contact .socialIcons ul li a i {
+  color: white;
+}
+.contact .socialIcons a {
+  font-size: 1rem;
+  margin-right: 10px;
+  color: #33342D;
 }
