@@ -538,6 +538,7 @@ footer a {
   color: #33342D;
   font-family: "Poppins";
   font-style: italic;
+  height: 100px;
 }
 .form .contactForm button {
   border-radius: 10px;
@@ -547,4 +548,24 @@ footer a {
   color: #33342D;
   font-family: "Poppins";
   font-style: italic;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+  width: 100%;
+}
+.contact img {
+  border-radius: 30px;
+  max-width: 25%;
 }
