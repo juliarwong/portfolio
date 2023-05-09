@@ -447,15 +447,17 @@ header a.button {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #2181E8;
-  padding: 30px;
+  color: white;
+}
+.skills h2 {
+  margin: 0 auto;
+  color: #CADD88;
+  font-size: 2.5rem;
+  padding-top: 70px;
 }
 .skills .skillsContainer {
   display: -webkit-box;
@@ -463,29 +465,48 @@ header a.button {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding: 40px;
+  margin: 40px;
+  width: 100%;
+}
+.skills .skillsContainer .skills {
+  width: calc(25% - 20px);
+  text-align: center;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.skills .skillsContainer .skills i {
+  font-size: 4rem;
+  margin-bottom: 10px;
+  color: white;
+}
+.skills .skillsContainer .skills p {
+  font-size: 1rem;
+  color: #CADD88;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 60%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-.skills h2 {
-  color: #CADD88;
-  margin-left: 100px;
-  margin-top: 100px;
-}
-.skills li {
-  color: white;
-}
-.skills i {
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-.skills p {
-  font-size: 1rem;
-  text-align: center;
+  height: 20px;
 }
 
 .projects h2 {
