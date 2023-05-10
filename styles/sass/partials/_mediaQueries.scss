@@ -57,23 +57,39 @@
         max-width: 50%;
     }
     .projects {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .projects li {
-        flex: 0 0 100%;
-        max-width: 100%;
-        margin-bottom: 20px;
-    }
-    .projectButtons {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .projectButtons li {
-        flex: 0 0 100%;
-        max-width: 100%;
+        h2 {
+            margin-top: 80px;
+        }
+
+        ul.projects {
+            flex-direction: column;
+            align-items: center;
+
+            li.projectOne, li.projectTwo, li.projectThree {
+                width: 100%;
+                margin-bottom: 60px;
+
+                img {
+                    max-width: 100%;
+                }
+
+                ul.projectButtons {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+
+                    li {
+                        margin: 0 10px;
+
+                        a.button {
+                            padding: 12px 20px;
+                            font-size: 0.7rem;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
     }
     .form {
         margin-top: 20px;
@@ -121,23 +137,32 @@
         margin-right: 10px;
     }
     .projects {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .projects li {
-        flex: 0 0 30%;
-        max-width: 30%;
-        margin-bottom: 20px;
-    }
-    .projectButtons {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .projectButtons li {
-        flex: 0 0 30%;
-        max-width: 30%;
+        ul.projects {
+            justify-content: center;
+
+            li.projectOne, li.projectTwo, li.projectThree {
+                width: 100%;
+                margin-bottom: 60px;
+
+                img {
+                    max-width: 100%;
+                }
+
+                ul.projectButtons {
+                    display: flex;
+                    justify-content: center;
+
+                    li {
+                        margin: 0 20px;
+
+                        a.button {
+                            padding: 12px 30px;
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
     }
     .formContainer {
         max-width: 60%;

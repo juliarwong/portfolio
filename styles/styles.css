@@ -774,38 +774,42 @@ footer a {
             flex: 0 0 50%;
     max-width: 50%;
   }
-  .projects {
+  .projects h2 {
+    margin-top: 80px;
+  }
+  .projects ul.projects {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .projects ul.projects li.projectOne, .projects ul.projects li.projectTwo, .projects ul.projects li.projectThree {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .projects ul.projects li.projectOne img, .projects ul.projects li.projectTwo img, .projects ul.projects li.projectThree img {
+    max-width: 100%;
+  }
+  .projects ul.projects li.projectOne ul.projectButtons, .projects ul.projects li.projectTwo ul.projectButtons, .projects ul.projects li.projectThree ul.projectButtons {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .projects li {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-    max-width: 100%;
-    margin-bottom: 20px;
+  .projects ul.projects li.projectOne ul.projectButtons li, .projects ul.projects li.projectTwo ul.projectButtons li, .projects ul.projects li.projectThree ul.projectButtons li {
+    margin: 0 10px;
   }
-  .projectButtons {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .projectButtons li {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-    max-width: 100%;
+  .projects ul.projects li.projectOne ul.projectButtons li a.button, .projects ul.projects li.projectTwo ul.projectButtons li a.button, .projects ul.projects li.projectThree ul.projectButtons li a.button {
+    padding: 12px 20px;
+    font-size: 0.7rem;
+    margin-top: 10px;
   }
   .form {
     margin-top: 20px;
@@ -864,38 +868,32 @@ footer a {
   .socialIcons li {
     margin-right: 10px;
   }
-  .projects {
+  .projects ul.projects {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .projects ul.projects li.projectOne, .projects ul.projects li.projectTwo, .projects ul.projects li.projectThree {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .projects ul.projects li.projectOne img, .projects ul.projects li.projectTwo img, .projects ul.projects li.projectThree img {
+    max-width: 100%;
+  }
+  .projects ul.projects li.projectOne ul.projectButtons, .projects ul.projects li.projectTwo ul.projectButtons, .projects ul.projects li.projectThree ul.projectButtons {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
-  .projects li {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 30%;
-            flex: 0 0 30%;
-    max-width: 30%;
-    margin-bottom: 20px;
+  .projects ul.projects li.projectOne ul.projectButtons li, .projects ul.projects li.projectTwo ul.projectButtons li, .projects ul.projects li.projectThree ul.projectButtons li {
+    margin: 0 20px;
   }
-  .projectButtons {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .projectButtons li {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 30%;
-            flex: 0 0 30%;
-    max-width: 30%;
+  .projects ul.projects li.projectOne ul.projectButtons li a.button, .projects ul.projects li.projectTwo ul.projectButtons li a.button, .projects ul.projects li.projectThree ul.projectButtons li a.button {
+    padding: 12px 30px;
+    font-size: 0.8rem;
   }
   .formContainer {
     max-width: 60%;
