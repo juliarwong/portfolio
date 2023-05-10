@@ -530,17 +530,27 @@ header a.button {
   margin: 0;
   padding: 0;
 }
-.projects li.projects {
+.projects li.projectOne, .projects li.projectTwo, .projects li.projectThree {
   width: calc(33.33% - 20px);
   margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.projects img {
+.projects li.projectOne img, .projects li.projectTwo img, .projects li.projectThree img {
   display: block;
   margin: 0 auto;
   max-width: 90%;
   border-radius: 15px;
 }
-.projects ul.projectButtons {
+.projects li.projectOne ul.projectButtons, .projects li.projectTwo ul.projectButtons, .projects li.projectThree ul.projectButtons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -553,10 +563,10 @@ header a.button {
   margin: 0;
   padding: 0;
 }
-.projects ul.projectButtons li.projectButtons {
+.projects li.projectOne ul.projectButtons li, .projects li.projectTwo ul.projectButtons li, .projects li.projectThree ul.projectButtons li {
   margin: 0 10px;
 }
-.projects ul.projectButtons li.projectButtons a.button {
+.projects li.projectOne ul.projectButtons li a.button, .projects li.projectTwo ul.projectButtons li a.button, .projects li.projectThree ul.projectButtons li a.button {
   display: block;
   text-align: center;
   background-color: #CADD88;
@@ -565,6 +575,7 @@ header a.button {
   border-radius: 15px;
   font-size: 0.9rem;
   text-decoration: none;
+  margin-top: 15px;
 }
 
 footer {
@@ -702,4 +713,191 @@ footer a {
   font-size: 1rem;
   margin-right: 10px;
   color: #33342D;
+}
+
+/* Media query for screens smaller than 600px wide */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  .headerDiv {
+    display: block;
+  }
+  .headerDiv img {
+    margin-bottom: 20px;
+  }
+  .button {
+    font-size: 0.8rem;
+    padding: 8px 16px;
+  }
+  .aboutDiv,
+  .aboutImg {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .aboutImg img {
+    max-width: 100%;
+    height: auto;
+  }
+  .about {
+    padding: 40px;
+  }
+  .about .aboutDiv {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  .about .aboutDiv .socialIcons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .about .aboutDiv a.button {
+    margin-top: 30px;
+  }
+  .about .aboutImg {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+  .skillsContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .skills li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .projects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .projects li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .projectButtons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .projectButtons li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .form {
+    margin-top: 20px;
+  }
+  .formContainer {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  .form input,
+  .form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .form button[type=submit] {
+    width: 100%;
+  }
+}
+/* Media query for screens between 600px and 1200px wide */
+@media (min-width: 601px) and (max-width: 1200px) {
+  body {
+    font-size: 16px;
+  }
+  .aboutDiv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .aboutDiv h2 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .aboutDiv p {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .aboutDiv .socialIcons {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .socialIcons ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .socialIcons li {
+    margin-right: 10px;
+  }
+  .projects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .projects li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%;
+    max-width: 30%;
+    margin-bottom: 20px;
+  }
+  .projectButtons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .projectButtons li {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%;
+    max-width: 30%;
+  }
+  .formContainer {
+    max-width: 60%;
+  }
 }

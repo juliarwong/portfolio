@@ -3,7 +3,7 @@
         text-align: center;
         margin-top: 140px;
     }
-    
+
     ul.projects {
         display: flex;
         flex-wrap: wrap;
@@ -13,76 +13,44 @@
         margin: 0;
         padding: 0;
     }
-    
-    li.projects {
+
+    li.projectOne, li.projectTwo, li.projectThree {
         width: calc(33.33% - 20px);
         margin-bottom: 30px;
-    }
-
-    img {
-        display: block;
-        margin: 0 auto;
-        max-width: 90%;
-        border-radius: 15px;
-    }
-
-    ul.projectButtons {
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
         align-items: center;
-        list-style: none;
-        margin: 0;
-        padding: 0;
 
-        li.projectButtons {
-            margin: 0 10px;
-
-            a.button {
+        img {
             display: block;
-            text-align: center;
-            background-color: $green;
-            color: $grey;
-            padding: 16px 40px;
+            margin: 0 auto;
+            max-width: 90%;
             border-radius: 15px;
-            font-size: 0.9rem;
-            text-decoration: none;
+        }
+
+        ul.projectButtons {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                margin: 0 10px;
+
+                a.button {
+                    display: block;
+                    text-align: center;
+                    background-color: $green;
+                    color: $grey;
+                    padding: 16px 40px;
+                    border-radius: 15px;
+                    font-size: 0.9rem;
+                    text-decoration: none;
+                    margin-top: 15px;
+                }
             }
         }
     }
 }
-
-
-// .projects {
-//     width: 90%;
-//     margin: 0 auto;
-
-//     h2 {
-//         text-align: center;
-//         margin-top: 140px;
-//     }
-
-//     img {
-//         width: 70%;
-//         border-radius: 15px;
-//     }
-
-//     ul {
-//         display: flex;
-//         justify-content: space-between;
-//         align-items: center;
-//         list-style: none;
-//         width: 100%;
-//     }
-
-//     li {
-//         a {
-//         text-align: center;
-//         background-color: $green;
-//         color: $grey;
-//         padding: 16px 40px;
-//         border-radius: 15px;
-//         font-size: 0.9rem;
-//         }
-//     }
-
-// }
