@@ -32,5 +32,11 @@ header {
         padding: 16px 40px;
         border-radius: 15px;
         font-size: 0.9rem;
+
+        &:hover,
+        &:focus {
+            background-color: $blue;
+            color: white;
+        }
     }
 }

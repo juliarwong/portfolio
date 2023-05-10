@@ -33,6 +33,10 @@
                 font-size: 4rem;
                 margin-bottom: 10px;
                 color: white;
+                &:hover,
+                &:focus {
+                    color: $green;
+                }
             }
 
             p {

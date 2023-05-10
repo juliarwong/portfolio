@@ -49,6 +49,12 @@
                     font-size: 0.9rem;
                     text-decoration: none;
                     margin-top: 15px;
+
+                    &:hover,
+                    &:focus {
+                        background-color: $blue;
+                        color: white;
+                    }
                 }
             }
         }

@@ -7,6 +7,10 @@ footer {
     a {
         color: white;
         font-style: italic;
+        &:hover,
+        &:focus {
+                color: $green;
+            }
     }
 }
 
