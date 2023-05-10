@@ -853,30 +853,36 @@ footer a:hover, footer a:focus {
   body {
     font-size: 16px;
   }
-  .aboutDiv {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+  .aboutDiv,
+  .aboutImg {
+    width: 100%;
+    margin-bottom: 20px;
   }
-  .aboutDiv h2 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+  .aboutImg img {
     max-width: 100%;
+    height: auto;
   }
-  .aboutDiv p {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
-    max-width: 50%;
+  .about {
+    padding: 40px;
   }
-  .aboutDiv .socialIcons {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
-    max-width: 50%;
+  .about .aboutDiv {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+  .about .aboutDiv .socialIcons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .about .aboutDiv a.button {
+    margin-top: 30px;
+  }
+  .about .aboutImg {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
   }
   .socialIcons ul {
     display: -webkit-box;

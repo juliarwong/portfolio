@@ -113,21 +113,39 @@
     body {
         font-size: 16px;
     }
-    .aboutDiv {
-        display: flex;
-        flex-wrap: wrap;
+    .aboutDiv,
+    .aboutImg {
+        width: 100%;
+        margin-bottom: 20px;
     }
-    .aboutDiv h2 {
-        flex: 0 0 100%;
+    .aboutImg img {
         max-width: 100%;
+        height: auto;
     }
-    .aboutDiv p {
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
-    .aboutDiv .socialIcons {
-        flex: 0 0 50%;
-        max-width: 50%;
+
+    .about {
+        padding: 40px;
+        
+        .aboutDiv {
+            width: 100%;
+            padding-right: 0;
+            margin-bottom: 30px;
+
+            .socialIcons {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            a.button {
+                margin-top: 30px;
+            }
+        }
+
+        .aboutImg {
+            width: 100%;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
     }
     .socialIcons ul {
         display: flex;

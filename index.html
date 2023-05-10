@@ -7,6 +7,23 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.0/firebase-app.js";
+    // Your web app's Firebase configuration
+    const config = {
+        apiKey: "AIzaSyBm5y85X7Zd5iZp1DJRROP2Z86S9yLn5I8",
+        authDomain: "portfolio-form-6868f.firebaseapp.com",
+        databaseURL: "https://portfolio-form-6868f-default-rtdb.firebaseio.com",
+        projectId: "portfolio-form-6868f",
+        storageBucket: "portfolio-form-6868f.appspot.com",
+        messagingSenderId: "230909981099",
+        appId: "1:230909981099:web:eda10e25731b71654aa2ee"
+    };
+    // Initialize Firebase
+    const app = initializeApp(config);
+    </script>
+    <script src="./form.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -22,7 +39,7 @@
         <header>
             <div class="headerDiv" id="headerDiv">
                 <img src="./assets/header-asset.png" alt="julia wong front end web developer">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem repudiandae soluta quasi eius facilis natus voluptatum cumque quaerat ullam.</p>
+                <p>Welcome to my portfolio, where I'm stoked to show off my first web creations. They might not be perfect (yet), but hey, everyone's gotta start somewhere, right? Join me on this wild ride as I figure out how to make websites look cool and work even cooler. And if you're a seasoned pro with some pro tips, I'm all ears!</p>
             </div>
             <a href="#contact" class="button">let's connect!</a>
         </header>
@@ -31,8 +48,9 @@
             <section class="about" id="about">
                 <div class="aboutDiv">
                     <h2>About</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iure optio voluptatem possimus id? Deleniti iusto obcaecati excepturi alias ut eos. Perspiciatis, repellendus dolorum? Ducimus minima nesciunt dolor assumenda aspernatur.
-                        Eum ratione placeat doloribus quam magni vel ab similique exercitationem, vitae fugiat temporibus mollitia hic illo vero aspernatur at provident. Eos placeat voluptatum voluptate earum ad minima, recusandae incidunt dicta.</p>
+                    <p>Welcome to my portfolio! As a front end web developer, I believe that creating stunning and user-friendly websites is a powerful tool for businesses to connect with their audiences. I'm passionate about making the digital world more accessible and engaging for everyone!</p>
+
+                    <p>My journey into web development started when I realized that coding and design could be combined to create amazing websites. Since then, I've been on a mission to learn and grow as much as I can in this exciting field!</p>
                         <div class="socialIcons">
                             <ul>
                                 <li><a href=""><i class="devicon-linkedin-plain"></i></a></li>
@@ -108,29 +126,7 @@
                     </li>
                 </ul>
             </section> 
-            <!-- <section class="projects" id="projects">
-                <h2>Projects</h2>
-                <ul class="projects">
-                    <li class="projectOne">
-                        <img src="./assets/1.png" alt="title card for Harper project">
-                        <li class="projectButtons"><a href="" class="button">live site</a></li>
-                    </li>
-                    <li class="projectTwo">
-                        <img src="./assets/2.png" alt="title card for movie app project">
-                        <li class="projectButtons"><a href="" class="button">live site</a></li>
-                    </li>
-                    <li class="projectThree">
-                        <img src="./assets/3.png" alt="title card for find beer app">
-                        <li class="projectButtons"><a href="" class="button">live site</a></li>
-                    </li>
-                </ul>
-                <ul class="projectButtons">
-                    <li class="projectButtons"><a href="" class="button">live site</a></li>
-                    <li class="projectButtons"><a href="" class="button">live site</a></li>
-                    <li class="projectButtons"><a href="" class="button">live site</a></li>
-                </ul> -->
-            </section>
-            
+
             <section class="contact" id="contact">
                 <img src="./assets/contact-asset.png" alt="">
                 <div class="form">
@@ -171,6 +167,6 @@
                 </ul>
             </footer>
         </main>
-    
+
 </body>
 </html>
