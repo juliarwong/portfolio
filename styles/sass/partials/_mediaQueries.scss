@@ -111,15 +111,15 @@
 /* Media query for screens between 600px and 1200px wide */
 @media (min-width: 601px) and (max-width: 1200px) {
     body {
-        font-size: 16px;
+        font-size: 14px;
     }
     .aboutDiv,
     .aboutImg {
-        width: 100%;
+        width: 80%;
         margin-bottom: 20px;
     }
     .aboutImg img {
-        max-width: 100%;
+        max-width: 80%;
         height: auto;
     }
 
@@ -142,7 +142,7 @@
         }
 
         .aboutImg {
-            width: 100%;
+            width: 80%;
             justify-content: center;
             margin-bottom: 30px;
         }
@@ -163,7 +163,7 @@
                 margin-bottom: 60px;
 
                 img {
-                    max-width: 100%;
+                    max-width: 80%;
                 }
 
                 ul.projectButtons {
